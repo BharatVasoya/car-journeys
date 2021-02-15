@@ -1,0 +1,33 @@
+const ActionTypes = {};
+
+//for signup
+export const SIGNUP_WATCHER = "SIGNUP_WATCHER";
+export const SIGNUP_SUCCESS = "SIGNUP_SUCCESS";
+export const SIGNUP_FAILURE = "SIGNUP_FAILURE";
+
+//for login
+export const LOGIN_WATCHER = "LOGIN_WATCHER";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAILURE = "LOGIN_FAILURE";
+
+//for login
+export const FORGOT_PASSWORD_WATCHER = "FORGOT_PASSWORD_WATCHER";
+export const FORGOT_PASSWORD_SUCCESS = "FORGOT_PASSWORD_SUCCESS";
+export const FORGOT_PASSWORD_FAILURE = "FORGOT_PASSWORD_FAILURE";
+
+//for get categoty list
+export const GET_CATEGORY_LIST_WATCHER = "GET_CATEGORY_LIST_WATCHER";
+export const GET_CATEGORY_LIST_SUCCESS = "GET_CATEGORY_LIST_SUCCESS";
+export const GET_CATEGORY_LIST_FAILURE = "GET_CATEGORY_LIST_FAILURE";
+
+//for List
+export const GET_LIST_WATCHER = "GET_LIST_WATCHER";
+export const GET_LIST_SUCCESS = "GET_LIST_SUCCESS";
+export const GET_LIST_FAILURE = "GET_LIST_FAILURE";
+
+//for get location list
+export const LOCATION_LIST_WATCHER = "LOCATION_LIST_WATCHER";
+export const LOCATION_LIST_SUCCESS = "LOCATION_LIST_SUCCESS";
+export const LOCATION_LIST_FAILURE = "LOCATION_LIST_FAILURE";
+
+export default ActionTypes;

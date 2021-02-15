@@ -1,0 +1,33 @@
+const Color = {
+  PRIMARY: '#194790',
+  DARK_PRIMARY: '#1b75bc',
+  WHITE: '#FFFFFF',
+  BLACK: '#000000',
+  GREY: '#51585a',
+  BLUE: '#007AFF',
+  GREY_LIGHT: 'rgba(118, 118, 128, 0.12)',
+  BACK_COLOR: '#1c2e34',
+  GREY_BUTTON_COLOR: '#868686',
+  DARK_GREY: '#6C6A6A',
+  LIGHT_BLACK: '#2F2F2E',
+  GREEN: '#3BBF14',
+  LINE_GREY: '#707070',
+  GREEN_LIGHT: '#3BBF14',
+  GREY_LIGHTER: '#F0F0F0',
+  TRANS_BLACK: 'rgba(0, 0, 0, 0.5)',
+  LOGO_BLACK: '#231f20',
+  TRANS_WHITE: 'rgba(255, 255, 255, 0.5)',
+
+  STRONG_TEAL: '#00706d',
+  STRONG_GREEN: '#618c3d',
+  STRONG_RED: '#c04646',
+  ACCENT_GREY: '#bcbec0',
+  ACCENT_TEAL: '#04a39f',
+  STRONG_GREY: '#848689',
+  ACCENT_RED: '#df4e51',
+  ACCENT_PURPLE: '#bb689c',
+  STRONG_PURPLE: '#8e5183',
+  ACCENT_GOLD: '#e89831',
+  DARK_BLUE_OPACITY: 'rgba(25, 71, 144, 0.6)'
+};
+export default Color;
