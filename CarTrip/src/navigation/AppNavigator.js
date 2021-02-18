@@ -1,10 +1,5 @@
 import * as React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import { Image, TouchableOpacity, DeviceEventEmitter } from 'react-native'
-import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
-
-import { Color } from '../common/styles';
-import { TextComponent, ButtonComponent } from '../components';
 
 import Splash from '../../src/screens/Spash';
 import Home from '../screens/Home';

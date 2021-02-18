@@ -1,19 +1,16 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 import { SafeAreaView, ScrollView, View } from 'react-native';
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
 
 // import components
 import styles from './styles';
 import { Color, Constants } from "../../common/styles";
-import { TextComponent, ButtonComponent } from '../../components';
+import { TextComponent } from '../../components';
 
 class About extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            value: '',
         }
     }
 
@@ -21,7 +18,7 @@ class About extends Component {
     }
 
     render() {
-        const { value } = this.state;
+        const { } = this.state;
         return (
             <SafeAreaView style={{ flex: 1, backgroundColor: Color.WHITE }}>
                 <ScrollView
@@ -41,13 +38,4 @@ class About extends Component {
     }
 }
 
-//---- Connect to props functions and values -----//
-function mapStateToProps(state) {
-    return {};
-}
-
-function mapDispatchToProps(dispatch) {
-    return {};
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(About)
+export default About

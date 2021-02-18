@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
-import { SafeAreaView, Image, View, Linking, Text, TouchableOpacity } from 'react-native';
+import { SafeAreaView, View } from 'react-native';
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
 import RNSpeedometer from 'react-native-speedometer'
 
@@ -14,8 +12,6 @@ class Home extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            value: '',
-            userEmail: '',
             value: 60,
         }
     }
@@ -85,13 +81,4 @@ class Home extends Component {
     }
 }
 
-//---- Connect to props functions and values -----//
-function mapStateToProps(state) {
-    return {};
-}
-
-function mapDispatchToProps(dispatch) {
-    return {};
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(Home)
+export default Home

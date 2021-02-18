@@ -12,9 +12,7 @@ const constants = {
   FONT_REGULAR: 'WorkSans-Regular',
   FONT_MEDIUM: 'WorkSans-Medium',
   FONT_SEMIBOLD: 'WorkSans-SemiBold',
-
-  MAP_KEY: 'AIzaSyBWpaD8EEtsTxhLVC1k6ocpbSlKwQEIbbc',
-
+  
   DRIVER_SCORE: 'You can improve your acceleration score by increasing your speed gently and driving smoothly.',
   DRIVER_SCORE_2: 'The solution is to get into the habit of keeping an eye on your speed. Also remember to take in your surroundings for how fast to travel.',
   DRIVER_SCORE_3: 'A low braking score could show that you aren’t giving yourself enough time to prepare for upcoming hazards. You can combat this by keeping a safe distance from other cars. You need to give yourself enough reaction time if the car in front of you decides to brake suddenly.',

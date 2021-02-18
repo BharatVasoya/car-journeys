@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
-import { SafeAreaView, FlatList, View, Image } from 'react-native';
+import { SafeAreaView, FlatList } from 'react-native';
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
 
 // import components
 import styles from './styles';
-import { Color, Constants } from "../../common/styles";
-import { TextComponent, TripItemComponent, NoResultComponent } from '../../components';
+import { Color } from "../../common/styles";
+import { TripItemComponent, NoResultComponent } from '../../components';
 import { dummyUpcomingData } from '../../common/helper/common';
 
 class MyTrips extends Component {
@@ -44,13 +42,4 @@ class MyTrips extends Component {
     }
 }
 
-//---- Connect to props functions and values -----//
-function mapStateToProps(state) {
-    return {};
-}
-
-function mapDispatchToProps(dispatch) {
-    return {};
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(MyTrips)
+export default MyTrips

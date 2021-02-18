@@ -1,19 +1,16 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 import { SafeAreaView, ScrollView } from 'react-native';
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
 
 // import components
 import styles from './styles';
 import { Color, Constants } from "../../common/styles";
-import { TextComponent, DriverItemComponent } from '../../components';
+import { DriverItemComponent } from '../../components';
 
 class MyScore extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            value: '',
         }
     }
 
@@ -63,13 +60,4 @@ class MyScore extends Component {
     }
 }
 
-//---- Connect to props functions and values -----//
-function mapStateToProps(state) {
-    return {};
-}
-
-function mapDispatchToProps(dispatch) {
-    return {};
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(MyScore)
+export default MyScore

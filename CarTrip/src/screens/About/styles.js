@@ -1,5 +1,5 @@
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
-import { Color, Constants } from "../../common/styles";
+import { Color } from "../../common/styles";
 
 export default (styles = {
   info: {
